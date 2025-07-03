@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function HomePage() {
+export default function CVPage() {
   return (
     <section className="flex flex-col items-center justify-center text-center gap-6 py-20">
       <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
-        Cześć, jestem <span className="text-blue-600 dark:text-blue-400">Jakub</span>
+        Moje <span className="text-blue-600 dark:text-blue-400">CV</span>
       </h1>
 
       <p className="text-xl sm:text-2xl text-gray-700 dark:text-gray-300 max-w-xl">
